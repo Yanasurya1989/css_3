@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius</title>
+    <style>
+        div{
+            margin: auto;
+            padding-top: 10px;
+        }
+        .container{
+            margin: auto;
+            width: 400px;
+            height: 800px;
+            border: 3px solid black;
+        }
+        .satu {
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            border-radius: 30px;
+            text-align: center;        
+            line-height: 200px;
+        }
+
+        .dua{
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            text-align: center;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            line-height: 200px;
+            overflow: hidden;
+        }
+
+        .dua img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .tiga{
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            text-align: center;
+            border-radius: 0 50% 0 50%;
+            line-height: 200px;
+            background-image: url(images/Yana.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h5{
+            margin-left: 10px;
+        }
+
+        .kotak {
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            float: left;
+        }
+        .kotak1 {
+            border: 8px solid #ccc;
+            border-radius: 10px;
+        }
+    
+        .kotak2 {
+            border: 10px solid red;
+            border-top-left-radius:60px;
+            border-bottom-right-radius: 60px; 
+        }
+    
+        .kotak3 {
+            border: 10px solid green;
+            border-radius: 100px;
+        }
+    
+        .kotak4 {
+            height:70px;
+            border: 10px solid blue;
+            border-radius: 100px 100px 0 0;
+        }
+    
+        .kotak5 {
+            margin-top: 110px;
+            height:70px;
+            border: 10px solid blue;
+            border-radius: 0 0 100px 100px;
+        }
+    
+        .kotak6 {
+            border: 10px solid orange;
+            border-radius: 20px 100px 100px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="satu">Line Height for middeling</div><br>
+
+        <h5>gambar di html</h5>
+        <div class="dua"><img src="images/Yana.jpg" alt=""></div><br>
+
+        <h5>gambar di style</h5>
+        <div class="tiga">image</div>
+
+        <div class="kotak kotak1"></div>
+        <div class="kotak kotak2"></div>
+        <div class="kotak kotak3"></div>
+        <div class="kotak kotak4"></div>
+        <div class="kotak kotak5"></div>
+        <div class="kotak kotak6"></div>
+    </div>
+</body>
+</html>
