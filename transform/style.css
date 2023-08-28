@@ -1,0 +1,81 @@
+p{
+    font-size: 24px;
+    text-align: center;
+}
+
+.kotak  {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto;
+    transition: 1.5s;
+}
+
+.kotak:hover{
+    /* memberi nilai untuk x dan y, satu nilai juga bisa */
+    /* transform: scale(2, 1.5); */
+
+    /* penulisan diatas sama seperti */
+    transform: scaleX(2) scaleY(1.5);
+}
+
+.rotate  {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin: 50px auto;
+    transition: 1.5s;
+}
+
+.rotate:hover{
+    /* arah jarum jam */
+    /* transform: rotate(45deg); */
+
+    /* arah berlawanan jarum jam */
+    /* transform: rotate(-45deg); */
+
+    /* memutar arah 3d*/
+    /* transform: rotate(180deg) rotateX(180deg) rotateY(180deg); */
+
+    transform: rotateY(180deg);
+}
+
+.skew  {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin: 50px auto;
+    transition: 1.5s;
+}
+
+.skew:hover{
+    /* transform: skew(45deg); */
+    transform: skewY(45deg);
+}
+
+.translate  {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    margin: 50px auto;
+    transition: 1.5s;
+}
+
+.translate:hover{
+    /* transform: skew(45deg); */
+    /* transform: translate(50px); */
+    transform: translate(50px, 100px);
+}
+
+.combine  {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin: 50px auto;
+    transition: 1.5s;
+}
+
+.combine:hover{
+    
+    transform: rotate(360deg) scale(3);
+}
