@@ -1,0 +1,101 @@
+.blur{
+    text-align: center;
+}
+
+.blur img{
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+}
+
+.brightness{
+    text-align: center;   
+}
+
+.brightness img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: brightness(200%);
+}
+
+.contras{
+    text-align: center;   
+}
+
+.contras img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: contrast(50%);
+}
+
+.saturate{
+    text-align: center;   
+}
+
+.saturate img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: saturate(10%);
+}
+
+.grayscale{
+    text-align: center;   
+}
+
+.grayscale img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: grayscale(100%);
+}
+
+.sepia{
+    text-align: center;   
+}
+
+.sepia img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: sepia(100%);
+}
+.hue-rotate{
+    text-align: center;   
+}
+
+.hue-rotate img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: hue-rotate(100deg);
+}
+
+.invert{
+    text-align: center;   
+}
+
+.invert img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: invert(100%);
+}
+
+.opacity{
+    text-align: center;   
+}
+
+.opacity img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: opacity(70%);
+}
+
+.drop-shadow{
+    text-align: center;   
+}
+
+.drop-shadow img, h1{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: drop-shadow(8px 8px 5px black);
+}
+
+.combine{
+    text-align: center;   
+}
+
+.combine img{
+    /* -webkit-filter: brightness(2); */
+    -webkit-filter: blur(10px) grayscale(1);
+}
+
+.combine img:hover{
+    -webkit-filter: blur(0) grayscale(0);
+}
