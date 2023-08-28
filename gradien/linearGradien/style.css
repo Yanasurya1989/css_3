@@ -1,0 +1,48 @@
+.satu {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(red, #f0d606, rgba(255,255,0,1), green);
+}
+
+.dua {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(90deg, red, green);
+}
+
+.tiga {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(-90deg, red, green);
+}
+
+.empat {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(45deg, red, green);
+}
+
+.lima {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to bottom, red, green);
+}
+
+.enam {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right bottom, red, green);
+}
+
+.tujuh {
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, red 65%, green 80%);
+}

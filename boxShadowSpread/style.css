@@ -1,0 +1,36 @@
+.satu{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto;
+
+    /* spread di paling belakang untuk mengatur size dari shadow */
+    box-shadow: 0px 30px 10px -20px rgba(0,0,0,.75);
+    transition: .3s;
+}
+
+.satu:hover{
+    box-shadow: 0px 80px 10px -40px rgba(0,0,0,.75);
+    margin-top: 40px;
+}
+
+.insett{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto;
+
+    /* inset untuk membuat shadow berada didalam object */
+    box-shadow: inset 0 0 15px 5px rgba(0,0,0,.75);
+}
+
+.multi{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto;
+
+    /* multiple shadow */
+    box-shadow: 0px 0px 0px 5px red, 0 0 0 10px blue, 0 0 0 15px yellow, 0 0 0 20px orange;
+    border-radius: 50%;
+}

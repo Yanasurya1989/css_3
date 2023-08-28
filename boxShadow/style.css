@@ -1,0 +1,13 @@
+div {
+    height: 300px;
+    width: 300px;
+    margin:  50px auto;
+    background-color: green;
+    /* x-offset y-offset blur colour */
+    /* untuk memposisikan shadow di kiri dan atas dengan memberi nilai minus */
+
+    /* box-shadow: 5px 5px 5px black; */
+
+    /* memberi transpalansi */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .75);
+}

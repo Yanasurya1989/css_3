@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+        }
+
+        .satu {
+            width: 300px;
+            height: 300px;
+            background-color: #f60;
+            opacity: .5;
+            position: relative;
+        }
+
+        .dua {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+            opacity: .5;
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">
+        <div class="dua"></div>
+    </div>
+    <ul>Note : 
+        <li>Memberi opacity pada element child akan memberikan transparansi melebihi parentnya krn transparansi didalam tranparansi tapi jika tidak diberi transparansi akan memiliki transparansi yang sama dengan parentnya</li>
+        <li>jika element parent memiliki warna solid maka childnya akan transparan meskipun tidak diset transparant</li>
+        <li>tapi jika ingin membuat childnya tidak transparan sedangkan parentnya transparant, tidak bisa jika menggunakan opacity</li>
+    </ul>
+</body>
+</html>
