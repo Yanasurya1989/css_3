@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 900px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: margin-left 1s;
+}
+
+.container:hover .kotak{
+    transform: rotate(45deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
+
+.container2 {
+    width: 900px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+.kotak2 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: 1s;
+}
+
+.container2:hover .kotak2{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
+
+.containerPart2 {
+    width: 900px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+.kotakPart2 {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+}
+
+.kotakPart21 { transition: all 1s ease; }
+.kotakPart22 { transition: all 1s ease-in; }
+.kotakPart23 { transition: all 1s ease-out; }
+.kotakPart24 { transition: all 1s ease-in-out; }
+.kotakPart25 { transition: all 1s linear; }
+.kotakPart26 { transition: all 1s cubic-bezier(0.24,-0.35, 0.78, 1.46); }
+
+.containerPart2:hover .kotakPart2{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
+
+.containerDelay {
+    width: 900px;
+    border: 3px solid black;
+    margin: 10px auto;
+}
+
+.delay {
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px 0;
+    /* transition: 3s 2s; */
+    /* transition: transform 3s; */
+    transition: margin-left 3s, transform 3s 2s, background-color 500ms 3s;
+}
+
+.containerDelay:hover .delay{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    background-color: royalblue;
+}
