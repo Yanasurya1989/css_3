@@ -36,7 +36,7 @@ h1{
 }
 
 .gallery li,
-.gallery li img,
+.gallery li a img,
 .gallery li span{
     border-radius: 50%;
 }
@@ -114,7 +114,39 @@ h1{
 .overlay:target .close{
     animation: slideDownFade .5s .5s forwards;
 }
+
+.overlay:target .prev,
+.overlay:target .next{
+    animation: fadeAjah .5s .5s forwards;
+}
+
+.next, .prev {
+    position: absolute;
+    width: 57px;
+    height: 93px;
+    background-image: url(../img/nav/next.png);
+    margin-left: 40px;
+    top: 40%;
+    text-indent: -9999px;
+    opacity: 0;
+}
+
+.prev {
+    background-image: url(../img/nav/prev.png);
+    margin-left: -100px;
+}
+
 /* animasi */
+@keyframes fadeAjah {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes zoomRengFeed {
     0%{
         transform: scale(0);
